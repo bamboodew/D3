@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>HelloWorld</title>
+	</head>
+	<body>
+		<p>Hello World 1</p>
+		<p>Hello World 2</p>
+		<script>
+		// 提取标签为p的element为一个组合
+		const paragraphs = document.getElementsByTagName("p");
+		// 循环迭代
+		for (let i = 0; i < paragraphs.length; i++) {
+			// 逐个修改element的内容innerHTML
+			const paragraph = paragraphs.item(i);
+			paragraph.innerHTML = "I like dog.";
+		}
+		</script>
+	</body>
+</html>

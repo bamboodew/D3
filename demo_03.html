@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>HelloWorld</title>
+	</head>
+	<body>
+		<p>Apple</p>
+		<p>Pear</p>
+		<p>Banana</p>
+
+		// 如果使用 D3.js 来修改这两行呢？只需添加一行代码即可。注意不要忘了引用 D3.js 源文件。
+		<script src="d3.js" charset="utf-8"></script>
+
+		<script>
+
+		const dataset = ["I like dog", "I like cat", "I like snake"];
+		const body = d3.select("body");
+		const p = body.selectAll("p");
+
+		p.data(dataset)
+			.text(function (d, i) {
+				return d;
+			});
+		</script>
+	</body>
+</html>
