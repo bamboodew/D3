@@ -13,15 +13,15 @@
 		<script src="d3.js" charset="utf-8"></script>
 
 		<script>
-		// 选择第一个p元素
-		const body = d3.select("body"); // 按标签选择
-		const p = body.select("p"); // 按标签选择
-		// p.style("color", "red"); // 修改元素style
+		/*
+		append elements in body
+		 */
+		d3.select('body').append('p').text('append p element');
 
 		/*
-		一步到位：根据标签选择
-		 */
-		d3.select("body").selectAll("p").style("color", "blue");
+		insert a paragraph before an element by id
+		*/
+		d3.select('body').insert('p', '#pear').text('insert p element');
 
 		/*
 		根据id选择第2个p
@@ -32,6 +32,11 @@
 		根据class选择
 		 */
 		d3.select("body").select(".banana").style("color", "green");
+
+		/*
+		delete element by class
+		*/
+		d3.select('body').select('.banana').remove();
 		</script>
 	</body>
 </html>
