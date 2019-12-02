@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd0f3c4b-4d78-46f2-a88a-a6bd47947cd1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_04_Append_Insert.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_04_Append_Insert.html" afterDir="false" />
-    </list>
+    <list default="true" id="cd0f3c4b-4d78-46f2-a88a-a6bd47947cd1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,11 +38,8 @@
       <recent name="D:\MyData\jinshuang1\WebstormProjects\untitled" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.demo_04_Append_Insert_Delete.html">
+  <component name="RunManager" selected="JavaScript Debug.demo_05_Append_Insert_Delete.html">
     <configuration name="demo_03.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_03.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="demo_04_Append_Insert_Delete.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_04_Append_Insert_Delete.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="demo_04_Select_Insert_Delete.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_04_Select_Insert_Delete.html" useBuiltInWebServerPort="true">
@@ -54,12 +48,15 @@
     <configuration name="demo_04_Select.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_04_Select.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="demo_05_Append_Insert_Delete.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_05_Append_Insert_Delete.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="demo_01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/demo_01.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.demo_04_Append_Insert_Delete.html" />
+        <item itemvalue="JavaScript Debug.demo_05_Append_Insert_Delete.html" />
         <item itemvalue="JavaScript Debug.demo_04_Select.html" />
         <item itemvalue="JavaScript Debug.demo_04_Select_Insert_Delete.html" />
         <item itemvalue="JavaScript Debug.demo_03.html" />
@@ -90,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574769387047</updated>
       <workItem from="1574769391246" duration="13077000" />
-      <workItem from="1575289926804" duration="2105000" />
+      <workItem from="1575289926804" duration="2360000" />
     </task>
     <servers />
   </component>
