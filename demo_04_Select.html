@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>HelloWorld</title>
+	</head>
+	<body>
+		<p>Apple</p>
+		<p id="pear">Pear</p>
+		<p class="banana">Banana</p>
+
+		<!-- 如果使用 D3.js 来修改这两行呢？只需添加一行代码即可。注意不要忘了引用 D3.js 源文件。-->
+		<script src="d3.js" charset="utf-8"></script>
+
+		<script>
+		// 选择第一个p元素
+		const body = d3.select("body"); // 按标签选择
+		const p = body.select("p"); // 按标签选择
+		// p.style("color", "red"); // 修改元素style
+
+		/*
+		一步到位：根据标签选择
+		 */
+		d3.select("body").selectAll("p").style("color", "blue");
+
+		/*
+		根据id选择第2个p
+		 */
+		d3.select("body").select("#pear").style("color", "red");
+
+		/*
+		根据class选择
+		 */
+		d3.select("body").select(".banana").style("color", "green");
+		</script>
+	</body>
+</html>

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd0f3c4b-4d78-46f2-a88a-a6bd47947cd1" name="Default Changelist" comment="" />
+    <list default="true" id="cd0f3c4b-4d78-46f2-a88a-a6bd47947cd1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_04_Select.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_03.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_03.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1U9WeY8hZBHKmgXtoko01oF1S1Y" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,14 +32,38 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyData\jinshuang1\WebstormProjects\D3.js" />
       <recent name="D:\MyData\jinshuang1\WebstormProjects\untitled" />
     </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.demo_04_Select.html">
+    <configuration name="demo_03.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_03.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_04_Select_Insert_Delete.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_04_Select_Insert_Delete.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_04_Select.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_04_Select.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/demo_01.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.demo_04_Select.html" />
+        <item itemvalue="JavaScript Debug.demo_04_Select_Insert_Delete.html" />
+        <item itemvalue="JavaScript Debug.demo_03.html" />
+        <item itemvalue="Node.js.demo_01.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -55,7 +87,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574769387047</updated>
-      <workItem from="1574769391246" duration="8629000" />
+      <workItem from="1574769391246" duration="13077000" />
+      <workItem from="1575289926804" duration="1446000" />
     </task>
     <servers />
   </component>
@@ -67,9 +100,13 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="855" y="262" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1574769978448" />
-    <state x="489" y="131" key="SettingsEditor" timestamp="1574815556475">
+    <state x="489" y="131" key="SettingsEditor" timestamp="1575075332792">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="489" y="131" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1574815556475" />
+    <state x="489" y="131" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1575075332792" />
+    <state x="496" y="233" key="run.anything.popup" timestamp="1575074804843">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="496" y="233" key="run.anything.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1575074804843" />
   </component>
 </project>
