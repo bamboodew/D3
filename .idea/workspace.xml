@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd0f3c4b-4d78-46f2-a88a-a6bd47947cd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo_07_scale.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_07_scale.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_07_scale.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -42,7 +46,7 @@
     <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -99,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574769387047</updated>
       <workItem from="1574769391246" duration="13077000" />
-      <workItem from="1575289926804" duration="16100000" />
+      <workItem from="1575289926804" duration="16983000" />
     </task>
     <servers />
   </component>
@@ -115,10 +119,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="855" y="262" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1575376620279" />
-    <state x="595" y="108" key="SettingsEditor" timestamp="1575376640023">
+    <state x="595" y="108" key="SettingsEditor" timestamp="1575377129369">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="595" y="108" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1575376640023" />
+    <state x="595" y="108" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1575377129369" />
     <state x="389" y="111" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1575369174586">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
