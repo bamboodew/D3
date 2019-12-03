@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>chart</title>
+	</head>
+	<body>
+
+		<!--绘制矩形-->
+		<!--本文绘制一个横向的柱形图。只绘制矩形，不绘制文字和坐标轴。-->
+		<!--在 SVG 中，矩形的元素标签是 rect。例如：-->
+		<svg>
+			<rect></rect> <!--矩形的元素标签是 rect -->
+			<rect></rect>
+		</svg>
+
+		<script src="d3.js" charset="utf-8"></script>
+		<script>
+		/*
+		添加画布
+		 */
+		const width = 300;
+		const height = 300;
+		const svg = d3.select('body')
+			.append('svg')
+			.attr('width', width)
+			.attr('height', height);
+		const dataset = [250, 210, 170, 130, 90]; // 表示矩形的宽度
+		const rectHeight = 25; // 每个矩形所占的像素高度(包括空白)
+
+		/*
+	这段代码添加了与 dataset 数组的长度相同数量的矩形，所使用的语句是：
+	*/
+		svg.selectAll('rect') // 选择svg内所有的矩形
+			.data(dataset) // 绑定数组
+			.enter() // 指定选择集的enter部分
+			.append('rect') // 添加足够熟练的矩形元素
+
+			.attr('x', 20)
+			.attr('y', function (d, i) {
+				return i * rectHeight;
+			})
+			.attr('width', function (d) {
+				return d;
+			})
+			.attr('height', rectHeight - 2)
+			.attr('fill', '#87CEEB'); // 给矩形元素设置颜色
+
+
+		svg.selectAll('rect')
+			.data(dataset)
+			.enter()
+			.append('rect');
+
+		</script>
+	</body>
+</html>
