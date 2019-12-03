@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>chart</title>
+	</head>
+	<body>
+
+		<!--绘制矩形-->
+		<!--本文绘制一个横向的柱形图。只绘制矩形，不绘制文字和坐标轴。-->
+		<!--在 SVG 中，矩形的元素标签是 rect。例如：-->
+		<svg>
+			<rect></rect> <!--矩形的元素标签是 rect -->
+			<rect></rect>
+		</svg>
+
+		<script src="d3.js" charset="utf-8"></script>
+		<script>
+      /*
+			添加画布
+			 */
+
+      const width = 300;
+      const height = 300;
+      const svg = d3.select('body')
+        .append('svg')
+        .attr('width', width)
+        .attr('height', height);
+      const dataset = [2.5, 2.1, 1.7, 1.3, 0.9]; // 表示矩形的宽度
+      const rectHeight = 25; // 每个矩形所占的像素高度(包括空白)
+
+      // const min = d3.min(dataset);
+      // const max = d3.max(dataset);
+
+      const linear = d3.scaleLinear() // 创建一个比例尺
+        .domain([0, d3.max(dataset)]) // 定义域
+        .range([0, 250]); // 值域
+
+      // linear(0.9);
+      // linear(2.3);
+      // linear(3.3);
+
+      /*
+			这段代码添加了与 dataset 数组的长度相同数量的矩形，所使用的语句是：
+			*/
+      svg.selectAll('rect') // 选择svg内所有的矩形
+        .data(dataset) // 绑定数组
+        .enter() // 指定选择集的enter部分
+        .append('rect') // 添加足够熟练的矩形元素
+
+        .attr('x', 20)
+        .attr('y', function (d, i) {
+          return i * rectHeight;
+        })
+        .attr('width', function (d) {
+          return linear(d); // 按照上一章的方法添加矩形，在给矩形设置宽度的时候，应用比例尺。
+        })
+        .attr('height', rectHeight - 2)
+        .attr('fill', '#87CEEB'); // 给矩形元素设置颜色
+
+		</script>
+	</body>
+</html>
