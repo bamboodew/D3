@@ -5,7 +5,7 @@
 		<title>chart</title>
 	</head>
 	<body>
-
+		
 		<!--绘制矩形-->
 		<!--本文绘制一个横向的柱形图。只绘制矩形，不绘制文字和坐标轴。-->
 		<!--在 SVG 中，矩形的元素标签是 rect。例如：-->
@@ -13,13 +13,13 @@
 			<rect></rect> <!--矩形的元素标签是 rect -->
 			<rect></rect>
 		</svg>
-
-		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		
+		<script src="http://d3js.org/d3.v5.min.js" charset="utf-8"></script> <!-- d3库已更新：http://d3js.org/d3.v5.min.js -->
 		<script>
+
       /*
 			添加画布
-			 */
-
+			*/
       const width = 300;
       const height = 300;
       const svg = d3.select('body')
@@ -56,8 +56,8 @@
           return linear(d); // 按照上一章的方法添加矩形，在给矩形设置宽度的时候，应用比例尺。
         })
         .attr('height', rectHeight - 2)
-        .attr('fill', '#87CEEB'); // 给矩形元素设置颜色
-
+        .attr('fill', '#ff007a'); // 给矩形元素设置颜色
+		
 		</script>
 	</body>
 </html>
