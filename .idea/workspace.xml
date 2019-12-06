@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd0f3c4b-4d78-46f2-a88a-a6bd47947cd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo_08_coordinate_axis.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_09_Update_Enter_Exit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/D3.js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/D3.js.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_10_Update_Exit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_02.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_02.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_03.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_03.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_09_Update_Enter_Exit.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_09_Update_Enter.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,29 +55,29 @@
       <recent name="D:\MyData\jinshuang1\WebstormProjects\untitled" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.demo_09_Update_Enter_Exit.html">
+  <component name="RunManager" selected="JavaScript Debug.demo_10_Update_Exit.html">
     <configuration name="demo_02.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_02.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="demo_03.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_03.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="demo_07_scale.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_07_scale.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="demo_08_coordinate_axis.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_08_coordinate_axis.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="demo_09_Update_Enter_Exit.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_09_Update_Enter_Exit.html" useBuiltInWebServerPort="true">
+    <configuration name="demo_09_Update_Enter.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_09_Update_Enter.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_10_Update_Exit.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_10_Update_Exit.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.demo_09_Update_Enter_Exit.html" />
+        <item itemvalue="JavaScript Debug.demo_10_Update_Exit.html" />
+        <item itemvalue="JavaScript Debug.demo_09_Update_Enter.html" />
         <item itemvalue="JavaScript Debug.demo_03.html" />
         <item itemvalue="JavaScript Debug.demo_02.html" />
         <item itemvalue="JavaScript Debug.demo_08_coordinate_axis.html" />
-        <item itemvalue="JavaScript Debug.demo_07_scale.html" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +105,7 @@
       <updated>1574769387047</updated>
       <workItem from="1574769391246" duration="13077000" />
       <workItem from="1575289926804" duration="21944000" />
-      <workItem from="1575548754497" duration="11530000" />
+      <workItem from="1575548754497" duration="12530000" />
     </task>
     <servers />
   </component>

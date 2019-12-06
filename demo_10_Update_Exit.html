@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+		<script src="http://d3js.org/d3.v5.min.js" charset="UTF-8"></script>
+	</head>
+	<body>
+		<p>dog</p>
+		<p>cat</p>
+		<p>pig</p>
+		
+		<script>
+        const update = d3.select("body")
+            .selectAll("p")
+            .data([3, 6]); // 表示绑定数据,并得到update部分
+
+        const exit = update.exit(); // 表示得到到enter部分
+
+        update.text(function(d, i) {
+            return "update: " + d + ", index: " + i;
+        }); // 对于update的处理
+
+        exit.text(function(d, i) {
+            return "exit: " + d + ", index: " + i;
+        }); // 对于exit的处理通常是删除 ，但在这里我并没有这么做
+		</script>
+	</body>
+</html>
