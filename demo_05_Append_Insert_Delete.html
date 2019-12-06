@@ -8,35 +8,48 @@
 		<p>Apple</p>
 		<p id="pear">Pear</p>
 		<p class="banana">Banana</p>
-
+		
 		<!-- 如果使用 D3.js 来修改这两行呢？只需添加一行代码即可。注意不要忘了引用 D3.js 源文件。-->
 		<script src="d3.js" charset="utf-8"></script>
-
+		
 		<script>
-		/*
-		append elements in body
-		 */
-		d3.select('body').append('p').text('append p element');
+        /*
+				append elements in body
+				 */
+        d3.select('body').append('p').text('append p element');
 
-		/*
-		insert a paragraph before an element by id
-		*/
-		d3.select('body').insert('p', '#pear').text('insert p element');
+        /*
+				insert a paragraph before an element by id
+				*/
+        d3.select('body').insert('p', '#pear').text('insert p element');
 
-		/*
-		根据id选择第2个p
-		 */
-		d3.select("body").select("#pear").style("color", "red");
+        /*
+				根据id选择第2个p
+				 */
+        d3.select("body").select("#pear").style("color", "red");
 
-		/*
-		根据class选择
-		 */
-		d3.select("body").select(".banana").style("color", "green");
+        /*
+				根据class选择
+				 */
+        d3.select("body").select(".banana").style("color", "green");
 
-		/*
-		delete element by class
-		*/
-		d3.select('body').select('.banana').remove();
+        /*
+				delete element by class
+				*/
+        d3.select('body').select('.banana').remove();
+
+        /*
+        修改element并设置特定位置的颜色
+         */
+        d3.select("body")
+            .selectAll("p")
+            .data([3, 6, 9, 12])
+            .text(function(d, i) {
+                if (i === 3) {
+                    d3.select(this).style("color", "#0E00FF");
+                }
+                return d;
+            });
 		</script>
 	</body>
 </html>
