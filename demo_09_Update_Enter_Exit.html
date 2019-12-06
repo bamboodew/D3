@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+		<script src="http://d3js.org/d3.v5.min.js" charset="UTF-8"></script>
+	</head>
+	<body>
+		<p>dog</p>
+		<p>cat</p>
+		<p>pig</p>
+		
+		<script>
+        const update = d3.select("body")
+            .selectAll("p")
+            .data([3, 6, 9, 12, 15]); // 表示绑定数据,并得到update部分
+
+        const enter = update.enter(); // 表示得到到enter部分
+
+        update.text(function(d, i) {
+            return "update: " + d + ", index: " + i;
+        }); // 对于update的处理
+
+        const pEnter = enter.append("p");
+        pEnter.text(function(d, i) {
+            return "enter: " + d + ", index: " + i;
+        }); // 添加足够多的<p>，并设置文本
+		</script>
+	
+	</body>
+</html>

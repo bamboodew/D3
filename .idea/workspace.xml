@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd0f3c4b-4d78-46f2-a88a-a6bd47947cd1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo_08_coordinate_axis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_09_Update_Enter_Exit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/D3.js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/D3.js.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_07_scale.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_07_scale.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_02.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_03.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_03.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +48,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -56,29 +59,29 @@
       <recent name="D:\MyData\jinshuang1\WebstormProjects\untitled" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.demo_07_scale.html">
-    <configuration name="demo_04_Select_Insert_Delete.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_04_Select_Insert_Delete.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.demo_09_Update_Enter_Exit.html">
+    <configuration name="demo_02.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_02.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="demo_04_Select.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_04_Select.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="demo_05_Append_Insert_Delete.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_05_Append_Insert_Delete.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="demo_06_Chart.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_06_Chart.html" useBuiltInWebServerPort="true">
+    <configuration name="demo_03.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_03.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="demo_07_scale.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_07_scale.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="demo_08_coordinate_axis.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_08_coordinate_axis.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_09_Update_Enter_Exit.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/D3.js/demo_09_Update_Enter_Exit.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.demo_09_Update_Enter_Exit.html" />
+        <item itemvalue="JavaScript Debug.demo_03.html" />
+        <item itemvalue="JavaScript Debug.demo_02.html" />
+        <item itemvalue="JavaScript Debug.demo_08_coordinate_axis.html" />
         <item itemvalue="JavaScript Debug.demo_07_scale.html" />
-        <item itemvalue="JavaScript Debug.demo_06_Chart.html" />
-        <item itemvalue="JavaScript Debug.demo_05_Append_Insert_Delete.html" />
-        <item itemvalue="JavaScript Debug.demo_04_Select.html" />
-        <item itemvalue="JavaScript Debug.demo_04_Select_Insert_Delete.html" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +108,8 @@
       <option name="presentableId" value="Default" />
       <updated>1574769387047</updated>
       <workItem from="1574769391246" duration="13077000" />
-      <workItem from="1575289926804" duration="21184000" />
+      <workItem from="1575289926804" duration="21944000" />
+      <workItem from="1575548754497" duration="11530000" />
     </task>
     <servers />
   </component>
@@ -113,18 +117,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="294" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575552516674">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="294" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1575552516674" />
     <state x="824" y="246" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1575376481543">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="824" y="246" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1680.1010@0.0.1680.1010" timestamp="1575376481543" />
-    <state x="855" y="262" key="FileChooserDialogImpl" timestamp="1575376620279">
+    <state x="855" y="262" key="FileChooserDialogImpl" timestamp="1575425249373">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="855" y="262" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1575376620279" />
-    <state x="2" y="133" width="1618" height="717" key="SettingsEditor" timestamp="1575423881963">
+    <state x="855" y="262" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1575425249373" />
+    <state x="2" y="133" width="1618" height="717" key="SettingsEditor" timestamp="1575614931149">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="2" y="133" width="1618" height="717" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1575423881963" />
+    <state x="2" y="133" width="1618" height="717" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1575614931149" />
     <state x="389" y="111" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1575369174586">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
