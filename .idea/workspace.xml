@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cd0f3c4b-4d78-46f2-a88a-a6bd47947cd1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_05_Append_Insert_Delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_05_Append_Insert_Delete.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo_08_coordinate_axis.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_08_coordinate_axis.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +104,7 @@
       <updated>1574769387047</updated>
       <workItem from="1574769391246" duration="13077000" />
       <workItem from="1575289926804" duration="21944000" />
-      <workItem from="1575548754497" duration="18898000" />
+      <workItem from="1575548754497" duration="22101000" />
     </task>
     <servers />
   </component>

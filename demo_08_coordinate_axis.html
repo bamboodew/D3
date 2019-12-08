@@ -3,17 +3,19 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>chart</title>
-		<script src="http://d3js.org/d3.v5.min.js" charset="utf-8"></script> <!-- d3库已更新：http://d3js.org/d3.v5.min.js -->
+		<script src="http://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+		<!-- d3库已更新：http://d3js.org/d3.v5.min.js -->
 	</head>
 	<body>
+		<!-- 新建svg，并定义宽度和高度 -->
 		<svg width="960" height="600"></svg>
 		<script>
-        const marge = {top: 60, bottom: 60, left: 60, right: 60};
-        const dataset = [2.5, 2.1, 1.7, 1.3, 0.9]; // 表示矩形的宽度
+        const marge = {top: 60, bottom: 60, left: 60, right: 60}; // 定义marge键值对（字典）
+        const dataset = [2.5, 2.1, 1.7, 1.3, 0.9]; // 表示条形图的5个条形的长度
 
-        var scaleLinear = d3.scaleLinear()
+        const scaleLinear = d3.scaleLinear()
             .domain([0, d3.max(dataset)])
-            .range([0, 250]);
+            .range([0, 250]); // 按比例尺放大条形的长度
 
         const svg = d3.select("svg");
         const g = svg.append("g")
@@ -21,32 +23,29 @@
 
         const rectHeight = 30; // 每个矩形所占的像素高度(包括空白)
 
+        /*
+        在画布中添加矩形条
+        */
         g.selectAll("rect")
             .data(dataset)
             .enter()
             .append("rect")
-            .attr("x", 20)
+            .attr("x", 20) // 矩形起点的横坐标
             .attr("y", function(d, i) {
                 return i * rectHeight;
-            })
+            }) // 矩形起点的纵坐标
             .attr("width", function(d) {
                 return scaleLinear(d);
-            })
-            .attr("height", rectHeight - 5)
-            .attr("fill", "blue");
-
-        /*
-				 * 定义比例尺
-				 * */
-        const xScale = d3.scaleLinear() // 创建一个比例尺
-            .domain([0, d3.max(dataset)]) // 定义域
-            .range([0, 250]); // 值域
+            }) // 矩形条的长度：分别取自scaleLinear
+            .attr("height", rectHeight - 10) // 设置高度
+            .attr("fill", "#339933"); // 填充颜色
 
         /*
         定义坐标轴
         */
-        const xAxis = d3.axisBottom(xScale)
-            .ticks(7);
+        const xAxis = d3.axisBottom(scaleLinear)
+            .ticks(7); // 设置刻度的数量
+
         g.append("g")
             .attr("transform", "translate(" + 20 + "," + (dataset.length * rectHeight) + ")")
             .call(xAxis);
