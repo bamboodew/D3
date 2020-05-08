@@ -9,6 +9,7 @@
 	<body>
 		<!-- 新建svg，并定义宽度和高度 -->
 		<svg width="960" height="600"></svg>
+		
 		<script>
         const marge = {top: 60, bottom: 60, left: 60, right: 60}; // 定义marge键值对（字典）
         const dataset = [2.5, 2.1, 1.7, 1.3, 0.9]; // 表示条形图的5个条形的长度
@@ -17,8 +18,8 @@
             .domain([0, d3.max(dataset)])
             .range([0, 250]); // 按比例尺放大条形的长度
 
-        const svg = d3.select("svg");
-        const g = svg.append("g")
+        const svg = d3.select("svg"); // "svg"是什么意思？还有哪些类似的属性？
+        const g = svg.append("g") // "g"是什么意思？还有哪些类似的属性？
             .attr("transform", "translate(" + marge.top + "," + marge.left + ")");
 
         const rectHeight = 30; // 每个矩形所占的像素高度(包括空白)
